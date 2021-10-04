@@ -1,0 +1,1199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* html {
+  font-size: 10px;
+} */
+
+body {
+    font-family: Roboto;
+    width: 100vw;
+    margin: 0px;
+}
+
+@media (max-width: 375px) {
+    header {
+        padding: 28px 20px 0 27px;
+    }
+}
+
+
+/* mobile version */
+
+
+/* "header" */
+
+header {
+    margin: 36px 32px 0 36px;
+    width: 100vw;
+}
+
+.logo {
+    width: 13.87vw;
+    margin-bottom: 8vw;
+}
+
+.timing {
+    display: flex;
+}
+
+.timing-item-one {
+    display: flex;
+    width: 19.47vw;
+    line-height: 2.93vw;
+    margin-right: 14px;
+    font-size: 2.67vw;
+}
+
+.timing-item-two {
+    display: flex;
+    width: 15.47vw;
+    line-height: 2.93vw;
+    margin-right: 15px;
+    font-size: 2.67vw;
+}
+
+.timing-item-three {
+    display: flex;
+    width: 17.87vw;
+    line-height: 2.93vw;
+    font-size: 2.67vw;
+}
+
+.planet-img {
+    width: 2.67vw;
+    margin-right: 3.75px;
+}
+
+.clock-img {
+    width: 2.67vw;
+    margin-right: 3.75px;
+}
+
+.calendar-img {
+    width: 2.67vw;
+    margin-right: 3.75px;
+}
+
+.how-watch-movies {
+    font-family: roboto slab;
+    font-size: 9.87vw;
+    line-height: 101.38%;
+    margin-top: 0;
+    margin-bottom: 4.53vw;
+    width: 71vw;
+}
+
+.watch-film-item {
+    width: 55.47vw;
+    font-size: 2.67vw;
+    line-height: 4vw;
+    margin: 0px;
+}
+
+.director-img {
+    width: 37.87vw;
+    margin-left: auto;
+}
+
+.watch-film {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-bottom: 9.60vw;
+    width: 81.33vw;
+}
+
+.quote {
+    background-color: #1e4681;
+    border-radius: 0.55vw;
+    color: white;
+    line-height: 3.75vw;
+    width: 60vw;
+    height: 24.8vw;
+    padding: 9px 12px 9px 12px;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+.quote-item {
+    margin: 0;
+    font-family: roboto slab;
+    font-size: 2.93vw;
+}
+
+.author {
+    margin-top: 6px;
+    font-size: 2.67vw;
+    text-align: end;
+    font-family: roboto;
+}
+
+
+/* section "about course" */
+
+.about-course {
+    margin: 75px 30px 0px 36px;
+}
+
+.about-course-head {
+    font-family: Roboto Slab;
+    font-size: 6.93vw;
+    line-height: 101.38%;
+    /* margin-top: 14.93vw; */
+    margin-bottom: 6.93vw;
+}
+
+.all-text {
+    margin-top: 4.80vw;
+    font-size: 3.20vw;
+    line-height: 150%;
+}
+
+.text {
+    width: 81.33vw;
+    margin-bottom: 4.80vw;
+}
+
+.operator {
+    text-align: center;
+    margin-top: 5.07vw;
+    margin-bottom: 9.60vw;
+    width: 81.33vw;
+}
+
+.operator img {
+    width: 45.33vw;
+    height: 42.67vw;
+}
+
+.shedule {
+    display: flex;
+    flex-wrap: wrap;
+    width: 81.33vw;
+}
+
+.shedule h3 {
+    font-size: 3.2vw;
+    line-height: 130%;
+    margin-top: 2.13vw;
+    margin-bottom: 0.53vw;
+}
+
+.shedule-text {
+    width: 23.2vw;
+    font-size: 2.67vw;
+    margin-right: 9.07vw;
+}
+
+.shedule p {
+    margin-top: 0px;
+    margin-bottom: 5.07vw;
+}
+
+.shedule-image {
+    display: none;
+}
+
+
+/* section class format */
+
+.class-format {
+    margin: 50px 0px 0px 36px;
+}
+
+.class-format h1 {
+    font-family: Roboto Slab;
+    font-size: 6.93vw;
+    line-height: 101.38%;
+    width: 100vw;
+    margin-bottom: 9.33vw;
+}
+
+.description-of-classes {
+    width: 55vw;
+}
+
+.class-format h3 {
+    font-family: Roboto;
+    font-size: 3.2vw;
+    line-height: 130%;
+    color: #1e4681;
+    margin-bottom: 1px;
+}
+
+.class-format p {
+    font-family: Roboto;
+    font-size: 2.67vw;
+    line-height: 130%;
+    margin: 0px 10px 34px 0px;
+}
+
+
+/* section knowledge */
+
+.knowledge {
+    margin: 78px 0px 76px 36px;
+}
+
+.knowledge h1 {
+    font-family: Roboto Slab;
+    font-size: 6.67vw;
+    line-height: 101.38%;
+    margin-bottom: 27px;
+}
+
+.knowledge ul {
+    padding-inline-start: 18px;
+    margin-right: 30px;
+}
+
+.knowledge li {
+    font-size: 3.2vw;
+    line-height: 150%;
+}
+
+
+/* section course program */
+
+.course-program {
+    margin: 0px;
+    padding: 0px;
+}
+
+.block-4-title {
+    font-family: Roboto Slab;
+    font-size: 6.93vw;
+    margin: 42px 32px 53px 36px;
+}
+
+.program-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 47.16px 95px;
+}
+
+.program-container-item {
+    width: 49.5vw;
+    height: 40.5vw;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 3.73vw;
+    margin: 0;
+    margin-bottom: 24.16px;
+}
+
+.program-picture {
+    width: 49.7vw;
+}
+
+.block-4-subtitle {
+    font-size: 3.73vw;
+    line-height: 97%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-bottom: 0px;
+}
+
+.program-date-info {
+    font-size: 3.2vw;
+    line-height: 130%;
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+.program-date-info-last {
+    font-size: 3.2vw;
+    line-height: 130%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+
+/* section reviews */
+
+.reviews {
+    background-color: #efefef;
+    padding: 42px 32px 53px 36px;
+    width: 100vw;
+}
+
+.course-count {
+    font-size: 6.93vw;
+    line-height: 6.93vw;
+    font-family: roboto slab;
+    margin: 0 0 30px 0;
+    width: 65.6vw;
+}
+
+.reviews_item {
+    width: 82.13vw;
+    height: 66.13vw;
+    background-color: #ffffff;
+    border-radius: 3.73vw;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    padding: 19px 25px 13px 21px;
+    box-sizing: border-box;
+}
+
+.review-text {
+    font-size: 2.67vw;
+    line-height: 4vw;
+    margin: 0 0 15px 0;
+}
+
+.reviews_avatar {
+    width: 21.33vw;
+    margin-right: 14px;
+}
+
+.name-of-reviewer {
+    font-family: roboto slab;
+    font-weight: 700;
+    font-size: 3.73vw;
+    margin-bottom: 18px;
+}
+
+.author-of-review {
+    display: flex;
+}
+
+.facebook-icon {
+    width: 4vw;
+}
+
+
+/* section cost */
+
+.cost {
+    padding: 62px 32px 72px 36px;
+    width: 100vw;
+    background: #9dc9c8;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.block-cost-title {
+    font-family: Roboto Slab;
+    max-width: 59.93vw;
+    font-size: 6.93vw;
+    line-height: 6.93vw;
+    margin: 0px 0px 40px 0px;
+}
+
+.cost-container-flex {
+    display: flex;
+    margin-top: 33px;
+}
+
+.cost-container-flex-item {
+    margin: 0 31px 0 0;
+}
+
+.cost-paragraph {
+    font-size: 2.67vw;
+    line-height: 101.38%;
+    margin-top: 10px;
+    width: 37.33vw;
+}
+
+.cost-subtitle {
+    font-size: 3.2vw;
+    line-height: 101.38%;
+    margin: 0px;
+}
+
+.cost-number {
+    font-size: 9.87vw;
+    line-height: 101.38%;
+    margin: 0px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #000000;
+    padding: 23px 196px 19px 56px;
+}
+
+.logo-footer {
+    width: 14.13vw;
+    margin: 0 0 14px 0;
+}
+
+.socials {
+    width: 29vw;
+    margin: 0 0 47.66px 0;
+}
+
+.inst-footer {
+    width: 4vw;
+    margin-right: 8px;
+}
+
+.facebook-footer {
+    width: 4vw;
+    margin-right: 9px;
+}
+
+.vk-footer {
+    width: 4vw;
+    margin-right: 11px;
+}
+
+.viber-footer {
+    width: 4vw;
+}
+
+.contacts {
+    width: 38vw;
+    margin: 0 0 48px 0;
+}
+
+.phone {
+    margin-bottom: 5px;
+}
+
+.phone-img {
+    width: 3.47vw;
+    margin-right: 10px;
+}
+
+.phone-number {
+    width: 28.53vw;
+    text-decoration: none;
+    color: white;
+    font-size: 3.2vw;
+}
+
+.letter-img {
+    width: 3.47vw;
+    margin-right: 10px;
+}
+
+.mail-address {
+    width: 31.47vw;
+    text-decoration: none;
+    color: white;
+    font-size: 3.2vw;
+}
+
+.data {
+    font-size: 2.67vw;
+    width: 30.4vw;
+    color: white;
+    margin: 0;
+}
+
+
+/* tablet version */
+
+@media (min-width: 992px) {
+    /* "header" */
+    header {
+        margin: 22px 142px 0 70px;
+    }
+    .logo {
+        width: 6.55vw;
+    }
+    .planet-img {
+        width: 1.31vw;
+        margin-right: 5px;
+    }
+    .clock-img {
+        width: 1.31vw;
+        margin-right: 6px;
+    }
+    .calendar-img {
+        width: 1.31vw;
+        margin-right: 6px;
+    }
+    .timing-item-one {
+        display: flex;
+        width: 9.17vw;
+        margin-right: 18px;
+        font-size: 1.21vw;
+    }
+    .timing-item-two {
+        display: flex;
+        width: 6.96vw;
+        margin-right: 24px;
+        font-size: 1.21vw;
+    }
+    .timing-item-three {
+        display: flex;
+        width: 8.87vw;
+        font-size: 1.21vw;
+    }
+    .how-watch-movies {
+        font-size: 4.64vw;
+        width: 33.47vw;
+        margin-bottom: 23px;
+        line-height: 4.7vw;
+    }
+    .watch-film-item {
+        font-size: 1.21vw;
+        width: 25.4vw;
+        line-height: 1.81vw;
+    }
+    .director-img {
+        width: 17.74vw;
+        margin-left: 113px;
+    }
+    .watch-film {
+        margin-bottom: 51px;
+    }
+    .quote {
+        width: 28.23vw;
+        height: 11.65vw;
+        padding: 12px 9px 16px 15px;
+        border-radius: 0.3vw;
+        margin-left: 23.89vw;
+    }
+    .quote-item {
+        font-size: 1.41vw;
+        line-height: 1.8vw;
+    }
+    .author {
+        margin-top: 7px;
+        font-size: 1.21vw;
+        text-align: end;
+    }
+    /* section "about course" */
+    .about-course {
+        margin: 100px 90px 0px 70px;
+    }
+    .about-course-head {
+        font-size: 3.23vw;
+        margin-bottom: 28.3px;
+    }
+    .about-course-info {
+        display: flex;
+        margin-bottom: 18px;
+    }
+    .all-text {
+        font-size: 1.41vw;
+        margin: 0px 95px 0px 0px;
+        padding: 0px;
+    }
+    .text {
+        width: 38.61vw;
+        margin-top: 4px;
+        margin-bottom: 21px;
+    }
+    .operator {
+        margin: 0px;
+        width: 21.37vw;
+        height: 20.06vw;
+        margin-right: 110px;
+    }
+    .operator p {
+        margin: 0px;
+    }
+    .operator img {
+        width: 21.37vw;
+        height: 20.06vw;
+    }
+    .shedule {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .shedule h3 {
+        font-size: 1.51vw;
+        margin-bottom: 4px;
+        margin-top: 42px;
+    }
+    .shedule div {
+        font-size: 1.11vw;
+        width: 9.48vw;
+        margin-right: 4.33vw;
+    }
+    .shedule-image {
+        display: block;
+        justify-content: flex-start;
+        width: 13.61vw;
+        height: 11.90vw;
+        margin-right: 7.76vw;
+    }
+    /* section clas format */
+    .class-format {
+        margin: 87px 90px 0px 70px;
+    }
+    .class-format h1 {
+        font-size: 3.23vw;
+        margin-bottom: 60px;
+    }
+    .description-of-classes {
+        display: flex;
+        width: 57.46vw;
+    }
+    .vebinar {
+        width: 15.12vw;
+        margin-right: 5.04vw;
+    }
+    .access {
+        width: 17.34vw;
+        margin-right: 4.03vw;
+    }
+    .communication {
+        width: 14.31vw;
+    }
+    .class-format h3 {
+        font-size: 1.51vw;
+        line-height: 130%;
+        margin-bottom: 4px;
+    }
+    .class-format p {
+        font-size: 1.11vw;
+        line-height: 130%;
+    }
+    /* section knowledge */
+    .knowledge {
+        margin: 87px 90px 0px 70px;
+    }
+    .knowledge h1 {
+        font-size: 3.23vw;
+        line-height: 101.38%;
+        margin-bottom: 35px;
+    }
+    .knowledge ul {
+        padding-inline-start: 18px;
+        margin-right: 30px;
+        width: 38.61vw;
+    }
+    .knowledge li {
+        font-size: 1.41vw;
+        line-height: 150%;
+    }
+    /* section course program */
+    .course-program {
+        padding: 132px 49.23px 0 48.65px;
+    }
+    .block-4-title {
+        font-size: 3.23vw;
+        margin: 0 0 73px 0;
+        width: 29.94vw;
+    }
+    .program-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .program-container-item {
+        width: 23.29vw;
+        height: 19.15vw;
+        border-radius: 1.81vw;
+        margin-bottom: 24px;
+        margin-right: 21.43px;
+    }
+    .program-picture {
+        width: 23.29vw;
+    }
+    .block-4-subtitle {
+        font-size: 1.71vw;
+        margin: 6.37px 0 18.53px 11.58px;
+    }
+    .block-4-subtitle-last {
+        margin: 0 0 0 11.58px;
+        font-size: 1.71vw;
+    }
+    .program-date-info {
+        font-size: 1.41vw;
+        line-height: 1.81vw;
+        margin: 18.53px 0 0 11px;
+    }
+    .program-date-info-last {
+        margin: 0 0 0 11;
+        font-size: 1.41vw;
+        line-height: 1.81vw;
+    }
+    /* section reviews */
+    .reviews {
+        background-color: #efefef;
+        padding: 53px 256px 64px 74px;
+        width: 100%;
+    }
+    .course-count {
+        font-size: 3.23vw;
+        line-height: 6.93vw;
+        margin: 0 0 30px 0;
+        width: 65.6vw;
+    }
+    .reviews_item {
+        width: 46.17vw;
+        height: 26.31vw;
+        border-radius: 1.71vw;
+        padding: 23px 45px 17px 26px;
+    }
+    .review-text {
+        font-size: 1.21vw;
+        line-height: 1.81vw;
+        margin: 0 0 19px 0;
+    }
+    .reviews_avatar {
+        width: 9.07vw;
+        margin-right: 38px;
+    }
+    .name-of-reviewer {
+        font-size: 1.71vw;
+        margin-bottom: 15px;
+    }
+    .author-of-review {
+        display: flex;
+    }
+    .facebook-icon {
+        width: 1.81vw;
+    }
+    /* section cost */
+    .cost {
+        padding: 104px 256px 110px 74px;
+        width: 100%;
+    }
+    .block-cost-title {
+        font-size: 3.23vw;
+        line-height: 6.93vw;
+        width: 65.6vw;
+        margin-bottom: 4.3%;
+    }
+    .cost-paragraph {
+        font-size: 1.01vw;
+        width: 17vw;
+        line-height: 101.38%;
+    }
+    .cost-container-flex-item {
+        max-width: 37%;
+        margin-right: 8%;
+    }
+    .cost-subtitle {
+        width: 14.11vw;
+        font-size: 1.41vw;
+        line-height: 101.38%;
+        margin-bottom: 6px;
+    }
+    .cost-number {
+        font-size: 4.7vw;
+        line-height: 101.38%;
+        margin-bottom: 5.1%;
+    }
+    /* footer */
+    footer {
+        padding: 29px 100px 26px 70px;
+    }
+    .footer-item {
+        display: flex;
+        margin: 0 0 84px 0;
+    }
+    .logo-footer {
+        width: 6.75vw;
+        margin: 0 0 17px 0;
+    }
+    .socials {
+        width: 13vw;
+        margin: 0 53.02vw 0 0;
+    }
+    .inst-footer {
+        width: 1.92vw;
+        margin-right: 10px;
+    }
+    .facebook-footer {
+        width: 1.92vw;
+        margin-right: 12px;
+    }
+    .vk-footer {
+        width: 1.92vw;
+        margin-right: 14px;
+    }
+    .viber-footer {
+        width: 1.92vw;
+    }
+    .contacts {
+        width: 18vw;
+        margin: 3px 0 0 0;
+    }
+    .phone {
+        margin-bottom: 10px;
+    }
+    .phone-img {
+        width: 1.61vw;
+        margin-right: 13px;
+    }
+    .phone-number {
+        width: 14.11vw;
+        font-size: 1.41vw;
+    }
+    .letter-img {
+        width: 1.61vw;
+        margin-right: 13px;
+    }
+    .mail-address {
+        width: 14.11vw;
+        font-size: 1.41vw;
+    }
+    .data {
+        font-size: 1.01vw;
+        width: 12vw;
+    }
+    .facebook-icon {
+        width: 1.81vw;
+    }
+}
+
+
+/* desctop version */
+
+@media (min-width: 1280px) {
+    /* "header" */
+    header {
+        margin: 21px 80px 0 120px;
+    }
+    .logo {
+        width: 8.75vw;
+    }
+    .planet-img {
+        width: 1.72vw;
+        margin-right: 8px;
+    }
+    .clock-img {
+        width: 1.72vw;
+        margin-right: 10px;
+    }
+    .calendar-img {
+        width: 1.72vw;
+        margin-right: 13px;
+    }
+    .timing-item-one {
+        display: flex;
+        width: 11.80vw;
+        margin-right: 38px;
+        font-size: 1.56vw;
+    }
+    .timing-item-two {
+        display: flex;
+        width: 9.06vw;
+        margin-right: 45px;
+        font-size: 1.56vw;
+    }
+    .timing-item-three {
+        display: flex;
+        width: 10.80vw;
+        font-size: 1.56vw;
+    }
+    .how-watch-movies {
+        font-size: 6.25vw;
+        width: 44.8vw;
+        margin-bottom: 22px;
+        line-height: 6.35vw;
+    }
+    .watch-film-item {
+        font-size: 1.56vw;
+        width: 32.34vw;
+        line-height: 2.34vw;
+    }
+    .director-img {
+        width: 23.75vw;
+        margin-left: 201px;
+    }
+    .watch-film {
+        margin-bottom: 77px;
+        display: flex;
+        width: 100vw;
+    }
+    .quote {
+        width: 37.79vw;
+        height: 15.63vw;
+        padding: 20px 27px 20px 25px;
+        border-radius: 0.39vw;
+        margin-left: 254px;
+    }
+    .quote-item {
+        font-size: 1.95vw;
+        line-height: 2.50vw;
+    }
+    .author {
+        margin-top: 6px;
+        font-size: 1.56vw;
+        text-align: end;
+    }
+    /* section about course */
+    .about-course {
+        margin: 0px 90px 0px 120px;
+    }
+    .about-course-head {
+        font-size: 4.3vw;
+        margin-top: 91px;
+        margin-bottom: 51.5px;
+    }
+    .about-course-info {
+        display: flex;
+    }
+    .all-text {
+        font-size: 1.88vw;
+        margin: 0px 110px 0px 0px;
+        padding: 0px;
+    }
+    .text {
+        width: 51.72vw;
+        margin-top: 4px;
+        margin-bottom: 36px;
+    }
+    .operator {
+        margin: 0px;
+        width: 21.37vw;
+        height: 20.06vw;
+    }
+    .operator p {
+        margin: 0px;
+    }
+    .operator img {
+        width: 28.59vw;
+        height: 26.88vw;
+    }
+    .shedule {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .shedule h3 {
+        /* padding-top: 60px; */
+        font-size: 1.95vw;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+    .shedule div {
+        font-size: 1.41vw;
+        width: 11.72vw;
+        margin-right: 7.42vw;
+    }
+    .shedule-image {
+        display: block;
+        justify-content: flex-start;
+        width: 13.61vw;
+        height: 11.90vw;
+        margin-right: 7.76vw;
+    }
+    /* section class format */
+    .class-format {
+        margin: 147px 90px 0px 120px;
+    }
+    .class-format h1 {
+        font-size: 4.30vw;
+        width: 37.97vw;
+        margin-bottom: 100px;
+    }
+    .description-of-classes {
+        display: flex;
+        width: 76.02vw;
+    }
+    .vebinar {
+        width: 19vw;
+        margin-right: 9.53vw;
+    }
+    .access {
+        width: 23vw;
+        margin-right: 8.83vw;
+    }
+    .communication {
+        width: 20vw;
+    }
+    .class-format p {
+        margin: 0;
+    }
+    .class-format h3 {
+        font-size: 1.9vw;
+        line-height: 130%;
+        margin-bottom: 10px;
+    }
+    .class-format p {
+        font-size: 1.41vw;
+        line-height: 130%;
+    }
+    /* section knowledge */
+    .knowledge {
+        margin: 185px 90px 0px 120px;
+    }
+    .knowledge h1 {
+        font-size: 4.3vw;
+        line-height: 101.38%;
+        margin-bottom: 55px;
+    }
+    .knowledge ul {
+        padding-inline-start: 18px;
+        margin-right: 30px;
+        width: 51.72vw;
+    }
+    .knowledge li {
+        font-size: 1.88vw;
+        line-height: 2.81vw;
+    }
+    /* section course program */
+    .course-program {
+        padding: 229px 85px 121px 84px;
+    }
+    .block-4-title {
+        font-size: 4.30vw;
+        margin: 0 0 125px 0;
+        width: 40.08vw;
+    }
+    .program-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        width: 96.67vw;
+    }
+    .program-container-item {
+        width: 27vw;
+        height: 21.46vw;
+        border-radius: 2.34vw;
+        margin-bottom: 41px;
+        margin-right: 37px;
+    }
+    .program-picture {
+        width: 27vw;
+    }
+    .block-4-subtitle {
+        font-size: 2vw;
+        margin: 10px 0 20px 20px;
+    }
+    .block-4-subtitle-last {
+        margin: 10px 0 10px 20px;
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+    .program-date-info {
+        font-size: 1.7vw;
+        line-height: 2.34vw;
+        margin: 18.53px 0 0 11px;
+    }
+    .program-date-info-last {
+        margin: 0 0 0 20px;
+        font-size: 1.7vw;
+        line-height: 2vw;
+    }
+    /* section reviews */
+    .reviews {
+        background-color: #efefef;
+        padding: 91px 447px 111px 126px;
+        width: 100%;
+    }
+    .course-count {
+        font-size: 4.3vw;
+        line-height: 4.4vw;
+        margin: 0 0 65px 0;
+        width: 68.05vw;
+    }
+    .reviews_item {
+        width: 61.8vw;
+        height: 35.23vw;
+        border-radius: 2.34vw;
+        padding: 40px 46px 29px 45px;
+    }
+    .review-text {
+        font-size: 1.56vw;
+        line-height: 2.34vw;
+        margin: 0 0 38px 0;
+    }
+    .reviews_avatar {
+        width: 12.03vw;
+        margin-right: 47px;
+    }
+    .name-of-reviewer {
+        font-size: 2.34vw;
+        margin-bottom: 27px;
+    }
+    .facebook-icon {
+        width: 2.5vw;
+    }
+    /* section cost */
+    .cost {
+        padding: 191px 0px 199px 126px;
+        width: 100vw;
+    }
+    .block-cost-title {
+        font-size: 4.3vw;
+        line-height: 4.4vw;
+        margin: 0 0 65px 0;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .cost-paragraph {
+        font-size: 1.41vw;
+        width: 22.8vw;
+        line-height: 101.38%;
+    }
+    .cost-container-flex-item {
+        max-width: 37%;
+        margin-right: 8%;
+    }
+    .cost-subtitle {
+        width: 17.97vw;
+        font-size: 1.95vw;
+        line-height: 101.38%;
+        margin-bottom: 6px;
+    }
+    .cost-number {
+        font-size: 4.7vw;
+        line-height: 101.38%;
+        margin-bottom: 5.1%;
+    }
+    /* footer */
+    footer {
+        padding: 50px 172px 45px 122px;
+    }
+    .footer-item {
+        display: flex;
+        margin: 0 0 147px 0;
+    }
+    .logo-footer {
+        width: 8.98vw;
+        margin: 0 0 30px 0;
+    }
+    .socials {
+        width: 18vw;
+        margin: 0 37vw 0 0;
+    }
+    .inst-footer {
+        width: 2.58vw;
+        margin-right: 18px;
+    }
+    .facebook-footer {
+        width: 2.58vw;
+        margin-right: 21px;
+    }
+    .vk-footer {
+        width: 2.58vw;
+        margin-right: 25px;
+    }
+    .viber-footer {
+        width: 2.58vw;
+    }
+    .contacts {
+        width: 23.91vw;
+        margin: 4px 0 0 0;
+    }
+    .phone {
+        margin-bottom: 13px;
+    }
+    .phone-img {
+        width: 2.11vw;
+        margin-right: 22px;
+    }
+    .phone-number {
+        width: 17.97vw;
+        font-size: 1.95vw;
+    }
+    .letter-img {
+        width: 2.11vw;
+        margin-right: 22px;
+    }
+    .mail-address {
+        width: 18.98vw;
+        font-size: 1.95vw;
+    }
+    .data {
+        font-size: 1.41vw;
+        width: 16.8vw;
+    }
+}

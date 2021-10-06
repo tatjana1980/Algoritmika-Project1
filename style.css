@@ -918,11 +918,11 @@ footer {
     }
     /* section about course */
     .about-course {
-        margin: 0px 90px 0px 120px;
+        margin: 170px 90px 0px 120px;
     }
     .about-course-head {
         font-size: 4.3vw;
-        margin-top: 91px;
+        margin-top: 0px;
         margin-bottom: 51.5px;
     }
     .about-course-info {
